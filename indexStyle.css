@@ -1,0 +1,175 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height:100vh;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width:90%;
+    color:white;
+    transform:translateY(-50%);
+}
+
+.taskSubmit{
+    width:100%;
+}
+
+.taskInput{
+    background-color: #a34807;
+    padding:10px;
+    text-align: center;
+    width:100%;
+}
+
+.enterTask{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+
+.taskInput h2{
+    margin:20px 0;
+    letter-spacing: 3px;
+}
+
+.task{
+    width:85%;
+    padding:8px;
+    font-size:15px;
+}
+
+.btn{
+    width:10%;
+    font-size:13px;
+    height:34px;
+    padding:3px 5px;
+}
+
+.task,.btn{
+    border:none;
+}
+
+.btn{
+    background-color:#f1cf72;
+    font-weight: 700;
+    text-align: center;
+    cursor:pointer;
+    transition: background-color 500ms;
+}
+.btn:hover{
+    background-color: #e2c26a;
+}
+
+.taskList{
+    color:black;
+    list-style-type: none;
+}
+
+.taskList li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left:10px; 
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.taskBtns{
+    display: flex;
+    margin-right:10px;
+
+}
+
+.editBtn,.delBtn{
+    text-decoration: none;
+    padding:5px;
+    margin: 0 5px;
+    width:58px;
+    text-align: center;
+    font-size:12px;
+    font-weight:700;
+    color:white;
+    border-radius: 3px;
+    transition: background-color 500ms;
+}
+
+.editBtn{
+    background-color: #48c448;
+}
+.delBtn{
+    background-color: #d0552c;
+}
+.editBtn:hover{
+    background-color: #43b643;
+}
+.delBtn:hover{
+    background-color: #c5512a;
+}
+
+.taskList li:nth-of-type(2n){
+    background-color: #cbcac9;
+}
+
+.taskList li:nth-of-type(2n+1){
+    background-color: #ece9e4;
+}
+
+.footer{
+    position: absolute;
+    bottom:0px;
+    font-size: 15px;
+    height:35px;
+    width:100%;
+    background-color:#161132;
+    text-align:right;
+    display:flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.footer-tag{
+    margin-right:10px;
+    color:rgb(234, 233, 233);
+}
+
+@media only screen and (max-width: 480px) {
+
+    .taskInput h2{
+        font-size:23px;
+    }
+    .task{
+        padding:4px;
+        font-size:14px;
+    }
+    .btn{
+        width:13%;
+        font-size:13px;
+        height:24px;
+        padding:2px 5px;
+    }
+    .taskBtns{
+        justify-content: flex-end;
+        margin-right:3px;
+    }
+    .editBtn,.delBtn{
+        font-size:11px;
+        width:50px;
+        margin-right:2px
+    }
+    .taskList li{
+        font-size:14px;
+    }
+
+}
