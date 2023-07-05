@@ -12,3 +12,5 @@ Key Features:
 3. Task Editing: Users have the ability to edit existing tasks. They can modify the task description, due date, priority, or any other relevant information. This feature allows users to keep their task list up-to-date and make necessary changes whenever required.
 
 Overall, the HTML/CSS/JavaScript Todo List project provides a practical and efficient solution for managing tasks. It allows users to create, edit, and delete tasks, keeping their workflow organized and ensuring they stay on top of their responsibilities.
+
+URL - 'https://todolist-app-varun-rao-888.netlify.app/'
