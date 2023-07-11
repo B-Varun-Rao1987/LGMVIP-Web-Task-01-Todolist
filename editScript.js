@@ -17,8 +17,8 @@
         const myTasks=JSON.parse(sessionStorage.getItem("myTaskStore"));
         console.log(myTasks);
         for(let i=0;i<myTasks.length;i++){
-            if(myTasks[i]===beforeEditText)
-                myTasks[i]=edVal;
+            if(myTasks[i].task===beforeEditText)
+                myTasks[i].task=edVal;
         }
         console.log(myTasks);
         sessionStorage.clear();
