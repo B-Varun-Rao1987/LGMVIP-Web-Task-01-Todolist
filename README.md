@@ -1,4 +1,4 @@
-# basicTodoList
+# Todo List
 Description: HTML/CSS/JavaScript Todo List Project
 
 The HTML/CSS/JavaScript Todo List project is a simple and interactive web application that allows users to manage their tasks effectively. It provides a user-friendly interface with options to create, edit, and delete tasks from a task list. The project is implemented using HTML for the structure, CSS for styling, and JavaScript for interactivity.
